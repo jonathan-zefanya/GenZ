@@ -26,3 +26,7 @@ public/css/app.css
 storage/media-library
 */storage/media-library
 docker-compose.yml
+
+# Payment gateway credentials and sensitive files
+/public/file/service-account-file.json
+database/seeders/PaymentGatewayDataTableSeeder.php.bak
