@@ -1,66 +1,149 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ GenZ - Platform eCommerce Modern
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/Progressive_Web_App-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
+  <img src="https://img.shields.io/badge/Single_Page_App-00D8FF?style=for-the-badge&logo=react&logoColor=white" alt="SPA">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License">
 </p>
 
-## About Laravel
+## 📖 Tentang GenZ
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**GenZ** adalah platform eCommerce modern yang dikembangkan menggunakan model **Progressive Web Application (PWA)** dan **Single-Page Application (SPA)**. Platform ini menawarkan sumber daya komprehensif bagi pelanggan yang ingin menjelajahi koleksi terbaru, gaya trendi, dan promosi eksklusif. Website ini dirancang user-friendly dan mudah dinavigasi, menyediakan informasi yang kaya dan menjadikannya sumber daya yang berharga untuk pelanggan Anda.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 🏪 Sistem Point of Sale (POS) yang Powerful
+Kelola transaksi toko secara efisien dengan sistem POS yang robust. Mempercepat proses checkout dan meningkatkan kepuasan pelanggan dengan antarmuka yang intuitif dan responsif.
 
-## Learning Laravel
+### 🚀 Instalasi dan Peluncuran Mudah
+Jalankan toko online Anda dengan cepat melalui proses instalasi yang tanpa kerumitan. Setup wizard yang user-friendly dan dokumentasi lengkap membuat peluncuran platform eCommerce Anda menjadi mudah, memungkinkan Anda fokus pada pengembangan bisnis daripada berurusan dengan prosedur instalasi yang kompleks.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 🎨 Antarmuka yang User-Friendly
+Nikmati pengalaman pengguna yang seamless dan intuitif dengan desain antarmuka yang dipikirkan secara matang, memastikan navigasi yang mudah dan aksesibilitas yang optimal.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 📦 Pelacakan Pesanan dan Notifikasi Real-Time
+Jaga pelanggan Anda tetap terinformasi di setiap langkah dengan menyediakan pelacakan pesanan dan notifikasi real-time. Tingkatkan transparansi dan bangun kepercayaan dengan update yang seamless.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ Teknologi yang Digunakan
 
-## Laravel Sponsors
+- **Backend**: Laravel Framework
+- **Frontend**: Progressive Web App (PWA) & Single Page Application (SPA)
+- **Database**: MySQL/PostgreSQL
+- **Payment Gateway**: Mendukung berbagai gateway pembayaran (Stripe, PayPal, Razorpay, dll)
+- **Keamanan**: Environment-based credential management
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 📋 Persyaratan Sistem
 
-### Premium Partners
+- PHP >= 8.1
+- Composer
+- Node.js & NPM
+- MySQL/PostgreSQL
+- Web Server (Apache/Nginx)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🚀 Instalasi
 
-## Contributing
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/jonathan-zefanya/GenZ.git
+   cd GenZ
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. **Install Dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
 
-## Code of Conduct
+3. **Konfigurasi Environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+4. **Konfigurasi Database**
+   
+   Edit file `.env` dan sesuaikan konfigurasi database:
+   ```
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=genz
+   DB_USERNAME=root
+   DB_PASSWORD=
+   ```
 
-## Security Vulnerabilities
+5. **Jalankan Migration & Seeder**
+   ```bash
+   php artisan migrate --seed
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+6. **Build Assets**
+   ```bash
+   npm run dev
+   # atau untuk production
+   npm run build
+   ```
 
-## License
+7. **Jalankan Aplikasi**
+   ```bash
+   php artisan serve
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   Akses aplikasi di `http://localhost:8000`
+
+## 🔐 Konfigurasi Payment Gateway
+
+Untuk menggunakan payment gateway, tambahkan kredensial Anda di file `.env`:
+
+```env
+# Stripe
+STRIPE_KEY=your_stripe_key
+STRIPE_SECRET=your_stripe_secret
+
+# PayPal
+PAYPAL_CLIENT_ID=your_paypal_client_id
+PAYPAL_CLIENT_SECRET=your_paypal_client_secret
+
+# Razorpay
+RAZORPAY_KEY=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
+
+# Dan payment gateway lainnya...
+```
+
+## 📱 Fitur PWA
+
+GenZ mendukung Progressive Web App, yang memungkinkan pengguna untuk:
+- Install aplikasi di perangkat mobile
+- Akses offline
+- Notifikasi push
+- Pengalaman seperti aplikasi native
+
+## 🤝 Kontribusi
+
+Kontribusi sangat diterima! Silakan fork repository ini dan buat pull request untuk perbaikan atau fitur baru.
+
+1. Fork Project
+2. Buat Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke Branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
+
+## 📄 Lisensi
+
+Project ini dilisensikan di bawah [MIT License](https://opensource.org/licenses/MIT).
+
+## 👨‍💻 Developer
+
+Dikembangkan dengan Sepenuh Hati oleh [Jonathan Zefanya](https://github.com/jonathan-zefanya)
+
+## 📧 Kontak & Support
+
+Jika Anda memiliki pertanyaan atau membutuhkan bantuan, silakan hubungi:
+- GitHub: [@jonathan-zefanya](https://github.com/jonathan-zefanya)
+- Repository: [GenZ](https://github.com/jonathan-zefanya/GenZ)
+
+---
+
+<p align="center">Made with ✨ for the eCommerce Community</p>
