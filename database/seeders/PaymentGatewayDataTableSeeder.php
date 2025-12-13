@@ -11,8 +11,11 @@ use Illuminate\Database\Seeder;
 
 class PaymentGatewayDataTableSeeder extends Seeder
 {
+    public array $gateways = [];
 
-    public array $gateways = [
+    public function __construct()
+    {
+        $this->gateways = [
         [
             "slug"    => "paypal",
             "status"  => Activity::ENABLE,
@@ -528,6 +531,7 @@ class PaymentGatewayDataTableSeeder extends Seeder
             ]
         ]
     ];
+    }
 
     public function run(): void
     {
