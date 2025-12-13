@@ -29,7 +29,7 @@ class CompanyTableSeeder extends Seeder
             'company_zip_code'     => '15310',
             'company_latitude'     => '-6.302444',
             'company_longitude'    => '106.739417',
-            'company_address'      => 'House : 25, Road No: 2, Block A, Mirpur-1, Dhaka 1216'
+            'company_address'      => 'House : 25, Road No: 2, Block A, Bintaro Jaya, Tangerang Selatan'
         ]);
 
         $envService = new EnvEditor();

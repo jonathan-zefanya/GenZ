@@ -107,9 +107,21 @@ class LoginController extends Controller
 
     public function logout(Request $request): JsonResponse
     {
-        $request->user()->currentAccessToken()->delete();
-        return new JsonResponse([
-            'message' => trans('all.message.logout_success')
-        ], 200);
+        try {
+            if ($request->user() && $request->user()->currentAccessToken()) {
+                $request->user()->currentAccessToken()->delete();
+            }
+            
+            // Also logout from session if exists
+            Auth::guard('web')->logout();
+            
+            return new JsonResponse([
+                'message' => trans('all.message.logout_success')
+            ], 200);
+        } catch (\Exception $e) {
+            return new JsonResponse([
+                'message' => trans('all.message.logout_success')
+            ], 200);
+        }
     }
 }

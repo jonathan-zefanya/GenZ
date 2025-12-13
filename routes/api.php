@@ -154,8 +154,9 @@ Route::prefix('auth')->middleware(['installed', 'apiKey', 'localization'])->name
         Route::post('/register-validation', [SignupController::class, 'validateRegister']);
     });
 
+    Route::post('/logout', [LoginController::class, 'logout']);
+    
     Route::middleware('auth:sanctum')->group(function () {
-        Route::post('/logout', [LoginController::class, 'logout']);
         Route::post('/delete-account', [DeactivateController::class, 'deleteAccount']);
     });
 
