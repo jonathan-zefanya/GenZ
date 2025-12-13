@@ -19,16 +19,16 @@ class CompanyTableSeeder extends Seeder
     {
         Settings::group('company')->set([
             'company_name'         => 'GenZ - PWA eCommerce CMS with POS & WhatsApp Ordering | Inventory Management',
-            'company_email'        => 'info@inilabs.net',
-            'company_calling_code' => '+880',
-            'company_phone'        => '13333846282',
-            'company_website'      => 'https://demo.shopperz.xyz',
-            'company_city'         => 'Mirpur 1',
-            'company_state'        => 'Dhaka',
-            'company_country_code' => 'BGD',
-            'company_zip_code'     => '1216',
-            'company_latitude'     => '23.7699072',
-            'company_longitude'    => '90.3643136',
+            'company_email'        => 'admin@genz.com',
+            'company_calling_code' => '+62',
+            'company_phone'        => '83812345678',
+            'company_website'      => 'https://genz.com',
+            'company_city'         => 'Tangerang Selatan',
+            'company_state'        => 'Banten',
+            'company_country_code' => 'IDN',
+            'company_zip_code'     => '15310',
+            'company_latitude'     => '-6.302444',
+            'company_longitude'    => '106.739417',
             'company_address'      => 'House : 25, Road No: 2, Block A, Mirpur-1, Dhaka 1216'
         ]);
 

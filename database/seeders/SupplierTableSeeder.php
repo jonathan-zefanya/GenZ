@@ -11,28 +11,28 @@ class SupplierTableSeeder extends Seeder
 {
     public array $fashionSuppliers = [
         [
-            'company'      => 'Puma Company',
-            'name'         => 'Mr. Raj & DK',
-            'email'        => 'rajdk@example.com',
-            'country_code' => '+880',
+            'company'      => 'Orant Tua',
+            'name'         => 'Ir. Sumanto',
+            'email'        => 'sumanto@example.com',
+            'country_code' => '+62',
             'phone'        => '12548723456',
-            'address'      => 'Dhaka Bangladesh',
-            'country'      => 'Bangladesh',
-            'state'        => 'Dhaka',
-            'city'         => 'Dhaka',
-            'zip_code'     => '1216'
+            'address'      => 'Bogor Indonesia',
+            'country'      => 'Indonesia',
+            'state'        => 'West Java',
+            'city'         => 'Bogor',
+            'zip_code'     => '16111'
         ],
         [
-            'company'      => 'Camper Company',
-            'name'         => 'Md. Smith Pio',
-            'email'        => 'smith@example.com',
-            'country_code' => '+880',
+            'company'      => 'NMAX',
+            'name'         => 'Lukas Siahaan',
+            'email'        => 'lukas@example.com',
+            'country_code' => '+62',
             'phone'        => '12548797653',
-            'address'      => 'Dhaka Bangladesh',
-            'country'      => 'Bangladesh',
-            'state'        => 'Dhaka',
-            'city'         => 'Dhaka',
-            'zip_code'     => '1216'
+            'address'      => 'Bogor Indonesia',
+            'country'      => 'Indonesia',
+            'state'        => 'West Java',
+            'city'         => 'Bogor',
+            'zip_code'     => '16111'
         ],
     ];
 

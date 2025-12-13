@@ -25,7 +25,7 @@ class SiteTableSeeder extends Seeder
         Settings::group('site')->set([
             'site_date_format'                           => 'd-m-Y',
             'site_time_format'                           => 'h:i A',
-            'site_default_timezone'                      => 'Asia/Dhaka',
+            'site_default_timezone'                      => 'Asia/Jakarta',
             'site_default_currency'                      => 1,
             'site_default_currency_symbol'               => '$',
             'site_currency_position'                     => CurrencyPosition::LEFT,
@@ -48,9 +48,9 @@ class SiteTableSeeder extends Seeder
 
         $envService->addData([
             'APP_DEBUG'              => 'false',
-            'TIMEZONE'               => 'Asia/Dhaka',
-            'CURRENCY'               => 'USD',
-            'CURRENCY_SYMBOL'        => '$',
+            'TIMEZONE'               => 'Asia/Jakarta',
+            'CURRENCY'               => 'IDR',
+            'CURRENCY_SYMBOL'        => 'Rp',
             'CURRENCY_POSITION'      => '5',
             'CURRENCY_DECIMAL_POINT' => '2',
             'DATE_FORMAT'            => 'd-m-Y',
