@@ -1,6 +1,6 @@
 {
     "menu": {
-        "license": "رخصة",
+        "license": "رمز سري",
         "create": "إنشاء",
         "edit": "تعديل",
         "view": "عرض",
@@ -103,7 +103,7 @@
         "pos-orders": "طلبات نقاط البيع"
     },
     "label": {
-        "license_code": "رمز الترخيص",
+        "license_code": "رمز سري",
         "previous": "السابق",
         "next": "التالي",
         "sign_in": "تسجيل الدخول",
