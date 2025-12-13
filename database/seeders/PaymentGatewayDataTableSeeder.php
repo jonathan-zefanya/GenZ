@@ -557,3 +557,5 @@ class PaymentGatewayDataTableSeeder extends Seeder
         }
     }
 }
+
+#SERAMZ
