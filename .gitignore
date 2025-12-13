@@ -25,4 +25,5 @@ public/css/app.css
 /storage/media-library
 storage/media-library
 */storage/media-library
+storage/installed
 docker-compose.yml
