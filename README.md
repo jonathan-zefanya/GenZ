@@ -49,11 +49,7 @@ Jaga pelanggan Anda tetap terinformasi di setiap langkah dengan menyediakan pela
    cd GenZ
    ```
 
-2. **Install Dependencies**
-   ```bash
-   composer install
-   npm install
-   ```
+2. **Extract Vendor.zip**
 
 3. **Konfigurasi Environment**
    ```bash
